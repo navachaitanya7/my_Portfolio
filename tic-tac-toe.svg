@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#0d1117"/>
+  
+  <!-- Terminal window -->
+  <rect x="100" y="80" width="600" height="440" fill="#161b22" stroke="#30363d" stroke-width="2" rx="8"/>
+  
+  <!-- Terminal header -->
+  <rect x="100" y="80" width="600" height="30" fill="#21262d" rx="8"/>
+  <circle cx="120" cy="95" r="6" fill="#ff5f56"/>
+  <circle cx="140" cy="95" r="6" fill="#ffbd2e"/>
+  <circle cx="160" cy="95" r="6" fill="#27ca3f"/>
+  <text x="400" y="100" fill="#f0f6fc" font-family="Monaco, monospace" font-size="12" text-anchor="middle">Java - Tic Tac Toe Game</text>
+  
+  <!-- Terminal content -->
+  <rect x="110" y="110" width="580" height="400" fill="#0d1117"/>
+  
+  <!-- Game title -->
+  <text x="130" y="140" fill="#7c3aed" font-family="Monaco, monospace" font-size="16" font-weight="bold">TIC TAC TOE GAME</text>
+  <text x="130" y="160" fill="#58a6ff" font-family="Monaco, monospace" font-size="12">==================</text>
+  
+  <!-- Game board -->
+  <g transform="translate(300, 200)">
+    <!-- Grid lines -->
+    <line x1="0" y1="60" x2="180" y2="60" stroke="#30363d" stroke-width="2"/>
+    <line x1="0" y1="120" x2="180" y2="120" stroke="#30363d" stroke-width="2"/>
+    <line x1="60" y1="0" x2="60" y2="180" stroke="#30363d" stroke-width="2"/>
+    <line x1="120" y1="0" x2="120" y2="180" stroke="#30363d" stroke-width="2"/>
+    
+    <!-- Game pieces -->
+    <!-- X in top-left -->
+    <g transform="translate(30, 30)">
+      <line x1="-15" y1="-15" x2="15" y2="15" stroke="#ff7b72" stroke-width="4" stroke-linecap="round"/>
+      <line x1="15" y1="-15" x2="-15" y2="15" stroke="#ff7b72" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    
+    <!-- O in top-center -->
+    <circle cx="90" cy="30" r="20" fill="none" stroke="#79c0ff" stroke-width="4"/>
+    
+    <!-- X in top-right -->
+    <g transform="translate(150, 30)">
+      <line x1="-15" y1="-15" x2="15" y2="15" stroke="#ff7b72" stroke-width="4" stroke-linecap="round"/>
+      <line x1="15" y1="-15" x2="-15" y2="15" stroke="#ff7b72" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    
+    <!-- O in middle-left -->
+    <circle cx="30" cy="90" r="20" fill="none" stroke="#79c0ff" stroke-width="4"/>
+    
+    <!-- X in center -->
+    <g transform="translate(90, 90)">
+      <line x1="-15" y1="-15" x2="15" y2="15" stroke="#ff7b72" stroke-width="4" stroke-linecap="round"/>
+      <line x1="15" y1="-15" x2="-15" y2="15" stroke="#ff7b72" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    
+    <!-- O in bottom-left -->
+    <circle cx="30" cy="150" r="20" fill="none" stroke="#79c0ff" stroke-width="4"/>
+    
+    <!-- Win line diagonal -->
+    <line x1="15" y1="15" x2="165" y2="165" stroke="#7c3aed" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+  </g>
+  
+  <!-- Game status -->
+  <text x="130" y="420" fill="#7c3aed" font-family="Monaco, monospace" font-size="14" font-weight="bold">Player X Wins!</text>
+  <text x="130" y="440" fill="#58a6ff" font-family="Monaco, monospace" font-size="12">Press R to restart or Q to quit</text>
+  
+  <!-- Code snippet -->
+  <text x="450" y="140" fill="#79c0ff" font-family="Monaco, monospace" font-size="10">// Java Implementation</text>
+  <text x="450" y="160" fill="#f85149" font-family="Monaco, monospace" font-size="10">public class</text>
+  <text x="540" y="160" fill="#f0f6fc" font-family="Monaco, monospace" font-size="10">TicTacToe {</text>
+  <text x="460" y="180" fill="#a5a5a5" font-family="Monaco, monospace" font-size="10">private char[][] board;</text>
+  <text x="460" y="200" fill="#a5a5a5" font-family="Monaco, monospace" font-size="10">private boolean gameOver;</text>
+  <text x="460" y="220" fill="#79c0ff" font-family="Monaco, monospace" font-size="10">public boolean</text>
+  <text x="550" y="220" fill="#f0f6fc" font-family="Monaco, monospace" font-size="10">checkWin() {</text>
+  <text x="470" y="240" fill="#a5a5a5" font-family="Monaco, monospace" font-size="10">// Win logic here</text>
+  <text x="460" y="260" fill="#f0f6fc" font-family="Monaco, monospace" font-size="10">}</text>
+  <text x="450" y="280" fill="#f0f6fc" font-family="Monaco, monospace" font-size="10">}</text>
+  
+  <!-- Terminal cursor -->
+  <rect x="130" y="460" width="8" height="15" fill="#58a6ff" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0;0.8" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Java logo -->
+  <g transform="translate(650, 450)">
+    <rect x="0" y="0" width="40" height="50" fill="#f89820" rx="5"/>
+    <text x="20" y="30" fill="white" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">J</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="560" fill="#7c3aed" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle">Tic Tac Toe Game</text>
+</svg>

@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yalamarthi Nava Chaitanya - Software Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50 font-inter">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-gray-200">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-xl font-bold text-purple-600">
+                    YNC
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#experience" class="nav-link">Experience</a>
+                    <a href="#education" class="nav-link">Education</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                <button class="md:hidden text-purple-600" id="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu fixed top-0 left-0 w-full h-full bg-white z-40 transform -translate-x-full transition-transform duration-300">
+        <div class="p-6">
+            <button class="absolute top-6 right-6 text-purple-600" id="mobile-menu-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="mt-16 space-y-6">
+                <a href="#home" class="block text-lg font-medium text-gray-900">Home</a>
+                <a href="#about" class="block text-lg font-medium text-gray-900">About</a>
+                <a href="#skills" class="block text-lg font-medium text-gray-900">Skills</a>
+                <a href="#projects" class="block text-lg font-medium text-gray-900">Projects</a>
+                <a href="#experience" class="block text-lg font-medium text-gray-900">Experience</a>
+                <a href="#education" class="block text-lg font-medium text-gray-900">Education</a>
+                <a href="#contact" class="block text-lg font-medium text-gray-900">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-20 pb-16 bg-gradient-to-br from-purple-50 to-indigo-100 min-h-screen flex items-center">
+        <div class="container mx-auto px-6 text-center">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+                    <span class="text-purple-600">Yalamarthi Nava</span><br>
+                    <span class="text-purple-600">Chaitanya</span>
+                </h1>
+                <p class="text-xl text-gray-600 mb-8">
+                    Software Engineer | ML & Web Development Enthusiast
+                </p>
+                <div class="flex justify-center mb-8">
+                    <a href="mailto:navachaitanya7@gmail.com" class="text-purple-600 hover:text-purple-700 flex items-center">
+                        <i class="fas fa-envelope mr-2"></i>
+                        navachaitanya7@gmail.com
+                    </a>
+                </div>
+                <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+                    Building innovative software solutions with a passion for driving digital transformation and delivering high-quality products.
+                </p>
+                <div class="flex justify-center space-x-6">
+                    <a href="https://www.linkedin.com/in/navachaitanya7/" class="text-gray-600 hover:text-purple-600 transition-colors">
+                        <i class="fab fa-linkedin text-2xl"></i>
+                    </a>
+                    <a href="https://github.com/navachaitanya7" class="text-gray-600 hover:text-purple-600 transition-colors">
+                        <i class="fab fa-github text-2xl"></i>
+                    </a>
+                    <a href="https://www.instagram.com/navachaitanya666?igsh=MXRvZzlzY3N2YWJocg==" class="text-gray-600 hover:text-purple-600 transition-colors">
+                        <i class="fab fa-instagram text-2xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <div class="flex items-center mb-8 justify-center">
+                    <i class="fas fa-user text-purple-600 text-2xl mr-3"></i>
+                    <h2 class="text-3xl font-bold text-gray-900">About Me</h2>
+                </div>
+                <div class="bg-gray-50 rounded-lg p-8">
+                    <p class="text-gray-700 mb-4">
+                        I'm a dedicated <strong>Software Engineer</strong> with a passion for creating innovative solutions that drive digital transformation. My expertise spans across AI/ML technologies, web development, and software engineering best practices. I'm detail-oriented, collaborative, and eager to learn new technologies while solving complex analytical problems.
+                    </p>
+                    <p class="text-gray-700 mb-4">
+                        With a strong foundation in the Software Development Life Cycle (SDLC) and Agile methodologies, I'm committed to delivering high-quality software products. My experience ranges from developing machine learning models for medical diagnostics to building responsive web applications with modern technologies.
+                    </p>
+                    <p class="text-gray-700 mb-4">
+                        Throughout my journey, I've gained hands-on experience in collaborative software engineering, working with cross-functional teams to deliver scalable solutions. My technical versatility allows me to adapt quickly to new frameworks and technologies, while my analytical mindset ensures I approach problems with a systematic and innovative perspective.
+                    </p>
+                    <p class="text-gray-700 mb-4">
+                        I thrive in dynamic environments where I can contribute to meaningful projects that have real-world impact. Whether it's developing AI models for healthcare applications, building responsive web interfaces, or optimizing system performance, I bring a combination of technical expertise and creative problem-solving to every challenge.
+                    </p>
+                    <p class="text-gray-700">
+                        I'm passionate about continuous learning and staying updated with the latest industry trends. My goal is to leverage technology to create solutions that not only meet business requirements but also enhance user experiences and drive organizational growth.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="max-w-6xl mx-auto">
+                <div class="flex items-center mb-12 justify-center">
+                    <i class="fas fa-code text-purple-600 text-2xl mr-3"></i>
+                    <h2 class="text-3xl font-bold text-gray-900">Technical Skills</h2>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Programming Languages -->
+                    <div class="bg-white rounded-lg p-6 shadow-sm">
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-code text-purple-600 mr-3"></i>
+                            <h3 class="text-xl font-semibold text-gray-900">Programming Languages</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">C++</span>
+                            <span class="skill-tag">JavaScript</span>
+                        </div>
+                    </div>
+
+                    <!-- Web Technologies -->
+                    <div class="bg-white rounded-lg p-6 shadow-sm">
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-globe text-purple-600 mr-3"></i>
+                            <h3 class="text-xl font-semibold text-gray-900">Web Technologies</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Google Maps API</span>
+                        </div>
+                    </div>
+
+                    <!-- Databases -->
+                    <div class="bg-white rounded-lg p-6 shadow-sm">
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-database text-purple-600 mr-3"></i>
+                            <h3 class="text-xl font-semibold text-gray-900">Databases</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-tag">SQL (Basics)</span>
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">Relational Databases</span>
+                        </div>
+                    </div>
+
+                    <!-- AI/ML & Data Processing -->
+                    <div class="bg-white rounded-lg p-6 shadow-sm">
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-brain text-purple-600 mr-3"></i>
+                            <h3 class="text-xl font-semibold text-gray-900">AI/ML & Data Processing</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-tag">TensorFlow</span>
+                            <span class="skill-tag">Keras</span>
+                            <span class="skill-tag">scikit-learn</span>
+                            <span class="skill-tag">NumPy</span>
+                            <span class="skill-tag">Pandas</span>
+                            <span class="skill-tag">Supervised Learning</span>
+                            <span class="skill-tag">Unsupervised Learning</span>
+                            <span class="skill-tag">Deep Learning (CNN, RNN, LSTM)</span>
+                            <span class="skill-tag">Image Classification</span>
+                            <span class="skill-tag">Predictive Modeling</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-6xl mx-auto">
+                <div class="flex items-center mb-12 justify-center">
+                    <i class="fas fa-folder-open text-purple-600 text-2xl mr-3"></i>
+                    <h2 class="text-3xl font-bold text-gray-900">My Projects</h2>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Brain Disease Diagnostics -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/brain-diagnostics.svg" alt="Brain Disease Diagnostics" class="w-full h-48 object-cover rounded-lg">
+                        </div>
+                        <div class="p-6">
+                            <div class="flex justify-between items-start mb-3">
+                                <h3 class="text-xl font-semibold text-gray-900">Brain Disease Diagnostics</h3>
+                                <div class="flex gap-2">
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">TensorFlow</span>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 mb-4">
+                                Designed and evaluated predictive models for diagnosing brain diseases with 89% accuracy using MRI scans. Leveraged deep learning with LSTM and neural networks for medical image analysis.
+                            </p>
+                            <div class="flex gap-4">
+                                <a href="https://github.com/navachaitanya7" class="project-link">
+                                    <i class="fas fa-code mr-2"></i>Code
+                                </a>
+                                <a href="https://drive.google.com/drive/folders/1kL9mPqX8vFyC2wR5nT3oE7uI6yQ4aZ1b" class="project-link">
+                                    <i class="fas fa-external-link-alt mr-2"></i>Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Restaurant Website -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/restaurant-website.svg" alt="Restaurant Website" class="w-full h-48 object-cover rounded-lg">
+                        </div>
+                        <div class="p-6">
+                            <div class="flex justify-between items-start mb-3">
+                                <h3 class="text-xl font-semibold text-gray-900">Restaurant Website</h3>
+                                <div class="flex gap-2">
+                                    <span class="tech-tag">HTML</span>
+                                    <span class="tech-tag">CSS</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 mb-4">
+                                Built a complete restaurant website improving mobile user engagement by 20% and optimizing page load speed by 30%. Integrated Google Maps API for location services.
+                            </p>
+                            <div class="flex gap-4">
+                                <a href="https://github.com/navachaitanya7" class="project-link">
+                                    <i class="fas fa-code mr-2"></i>Code
+                                </a>
+                                <a href="https://drive.google.com/file/d/1muaROa_lV2gcH0hZ6HsKdjUATunxS2JN/view?usp=drive_link" class="project-link">
+                                    <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tic Tac Toe Game -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/tic-tac-toe.svg" alt="Tic Tac Toe Game" class="w-full h-48 object-cover rounded-lg">
+                        </div>
+                        <div class="p-6">
+                            <div class="flex justify-between items-start mb-3">
+                                <h3 class="text-xl font-semibold text-gray-900">Tic Tac Toe Game</h3>
+                                <div class="flex gap-2">
+                                    <span class="tech-tag">Java</span>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 mb-4">
+                                Developed a two-player console-based game using 2D arrays and control flow. Implemented core game logic with win condition detection and replay feature.
+                            </p>
+                            <div class="flex gap-4">
+                                <a href="https://github.com/navachaitanya7" class="project-link">
+                                    <i class="fas fa-code mr-2"></i>Code
+                                </a>
+                                <a href="https://drive.google.com/drive/folders/1hI3jK4lM5nO6pQ7rS8tU9vW0xY1zA2b" class="project-link">
+                                    <i class="fas fa-external-link-alt mr-2"></i>Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Snake Game -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/snake-game.svg" alt="Snake Game" class="w-full h-48 object-cover rounded-lg">
+                        </div>
+                        <div class="p-6">
+                            <div class="flex justify-between items-start mb-3">
+                                <h3 class="text-xl font-semibold text-gray-900">Snake Game</h3>
+                                <div class="flex gap-2">
+                                    <span class="tech-tag">Java</span>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 mb-4">
+                                Developed a classic Snake Game implementing dynamic movement, food generation, score tracking, and collision detection. Solidified Java fundamentals and OOP principles.
+                            </p>
+                            <div class="flex gap-4">
+                                <a href="https://github.com/navachaitanya7" class="project-link">
+                                    <i class="fas fa-code mr-2"></i>Code
+                                </a>
+                                <a href="https://drive.google.com/drive/folders/1cD4eF5gH6iJ7kL8mN9oP0qR1sT2uV3w" class="project-link">
+                                    <i class="fas fa-external-link-alt mr-2"></i>Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <div class="flex items-center mb-12 justify-center">
+                    <i class="fas fa-briefcase text-purple-600 text-2xl mr-3"></i>
+                    <h2 class="text-3xl font-bold text-gray-900">Experience</h2>
+                </div>
+                
+                <div class="space-y-8">
+                    <!-- AI Developer Intern -->
+                    <div class="bg-white rounded-lg p-6 shadow-sm">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-semibold text-gray-900">AI Developer Intern</h3>
+                            <span class="text-sm text-gray-500">May 2025 – Present</span>
+                        </div>
+                        <p class="text-purple-600 mb-4">Swecha.ai, IIIT Hyderabad & Viswam.AI</p>
+                        <ul class="text-gray-700 space-y-2">
+                            <li>• Engaged in the Summer of AI 2025 (SoAI) internship, focusing on AI development and collaborative software engineering</li>
+                            <li>• Developed and fine-tuned AI models using local data, gaining practical experience in data processing and algorithmic implementation</li>
+                            <li>• Contributed to open-source community projects, demonstrating ability to work within shared codebase and development standards</li>
+                        </ul>
+                    </div>
+
+                    <!-- Machine Learning Intern -->
+                    <div class="bg-white rounded-lg p-6 shadow-sm">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-semibold text-gray-900">Machine Learning Intern</h3>
+                            <span class="text-sm text-gray-500">Jun 2023 – Aug 2023</span>
+                        </div>
+                        <p class="text-purple-600 mb-4">YBI Foundation</p>
+                        <ul class="text-gray-700 space-y-2">
+                            <li>• Engineered feature-generation notebooks using pandas and scikit-learn, significantly improving Kaggle leaderboard scores (top 15%)</li>
+                            <li>• Implemented robust unit tests with pytest and configured GitHub Actions for CI/CD pipelines</li>
+                            <li>• Prevented over 12 regression bugs pre-merge and ensured high-quality software delivery</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <div class="flex items-center mb-12 justify-center">
+                    <i class="fas fa-graduation-cap text-purple-600 text-2xl mr-3"></i>
+                    <h2 class="text-3xl font-bold text-gray-900">Education & Achievements</h2>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Education -->
+                    <div class="bg-gray-50 rounded-lg p-6">
+                        <div class="flex items-center mb-6">
+                            <i class="fas fa-graduation-cap text-purple-600 mr-3"></i>
+                            <a href="https://drive.google.com/file/d/1c10y-4yi8yN5tNQmhFvrSVkZUjvpmiKa/view?usp=drive_link" class="text-xl font-semibold text-gray-900 hover:text-purple-600 transition-colors">Education</a>
+                        </div>
+                        <div class="space-y-4">
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Bachelor of Technology in Computer Science and Engineering</h4>
+                                <p class="text-gray-600">Sir CR Reddy College, Eluru - 69.29%</p>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Intermediate (MPC)</h4>
+                                <p class="text-gray-600">Aditya Junior College, Kakinada - 78.85%</p>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Secondary School Certificate (SSC)</h4>
+                                <p class="text-gray-600">Bhashyam Public School, Tadepalligudem - 90.25%</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certifications -->
+                    <div class="bg-gray-50 rounded-lg p-6">
+                        <div class="flex items-center mb-6">
+                            <i class="fas fa-certificate text-purple-600 mr-3"></i>
+                            <a href="https://drive.google.com/file/d/1c10y-4yi8yN5tNQmhFvrSVkZUjvpmiKa/view?usp=drive_link" class="text-xl font-semibold text-gray-900 hover:text-purple-600 transition-colors">Certifications</a>
+                        </div>
+                        <div class="space-y-4">
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Technology Job Simulation</h4>
+                                <p class="text-gray-600">Deloitte | June 28th, 2025 | Forage</p>
+                                <p class="text-sm text-gray-500">Successfully completed practical tasks in Coding, Development, and Technical implementation</p>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Java Programming Course</h4>
+                                <p class="text-gray-600">Udemy</p>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Programming Foundations Fundamentals</h4>
+                                <p class="text-gray-600">LinkedIn Learning</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl font-bold text-gray-900 mb-12">Get In Touch</h2>
+                
+                <div class="grid md:grid-cols-3 gap-8 mb-12">
+                    <div class="text-center">
+                        <i class="fas fa-envelope text-purple-600 text-2xl mb-3"></i>
+                        <p class="text-gray-600">navachaitanya7@gmail.com</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-phone text-purple-600 text-2xl mb-3"></i>
+                        <p class="text-gray-600">+91 9573712777</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-map-marker-alt text-purple-600 text-2xl mb-3"></i>
+                        <p class="text-gray-600">Hyderabad, India</p>
+                    </div>
+                </div>
+
+                <div class="flex justify-center space-x-6 mb-8">
+                    <a href="https://www.linkedin.com/in/navachaitanya7/" class="text-purple-600 hover:text-purple-700">
+                        <i class="fab fa-linkedin text-xl mr-2"></i>LinkedIn Profile
+                    </a>
+                    <a href="https://github.com/navachaitanya7" class="text-purple-600 hover:text-purple-700">
+                        <i class="fab fa-github text-xl mr-2"></i>GitHub Profile
+                    </a>
+                    <a href="https://www.instagram.com/navachaitanya666?igsh=MXRvZzlzY3N2YWJocg==" class="text-purple-600 hover:text-purple-700">
+                        <i class="fab fa-instagram text-xl mr-2"></i>@navachaitanya666
+                    </a>
+                </div>
+
+                <a href="https://drive.google.com/file/d/1c10y-4yi8yN5tNQmhFvrSVkZUjvpmiKa/view?usp=drive_link" class="bg-purple-600 text-white px-8 py-3 rounded-lg hover:bg-purple-700 transition-colors inline-block">
+                    <i class="fas fa-download mr-2"></i>Download My Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-8 border-t border-gray-200">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-gray-600">© 2025 Yalamarthi Nava Chaitanya. Built with passion for innovation.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
